@@ -1,10 +1,13 @@
-import "./styles.css";
+import { BiArchive } from "react-icons/bi";
 
-export default function App() {
+function App() {
   return (
-    <div className="App bg-red-400 w-full">
-      <h1 className="text-red-400">Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+    <div className="App container mx-auto mt-3 font-thin">
+      <h1 className="text-5xl">
+        <BiArchive className="inline" /> Hello CodeSandbox
+      </h1>
     </div>
   );
 }
+
+export default App;
